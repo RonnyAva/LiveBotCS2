@@ -73,7 +73,7 @@ using Newtonsoft.Json;
             else
             {
                 // Not from a directLine channel
-                await context.PostAsync("You said: " + message.Text);
+                await context.PostAsync("U said: " + message.Text);
             }
             context.Wait(MessageReceivedAsync);
         }
